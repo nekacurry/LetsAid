@@ -285,4 +285,9 @@ li p:first-of-type {
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.185);
 }
 
+/* Coming Soon Page Styles */
 
+#soonPage {
+    text-align: center;
+    line-height: 3em;
+}
