@@ -245,3 +245,40 @@ form button {
     align-self: flex-end;
     padding: 0.5em 1em;
 }
+
+/*Prepare Page Styles*/
+
+#preparePage h1{
+    text-align: center;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+/*.items {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-column-gap: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+*/
+
+#doBring ul {
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+
+.items img {
+    float: left;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    margin: 70px 70px 10px;
+}
+
+
