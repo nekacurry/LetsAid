@@ -36,6 +36,9 @@ Fonts were sourced from Google Fonts
 Temporary logo is from https://logomaker.com
 
 I started with a base layout of each page, adding in styles for each one.
-Each section of a page was coded on part at a time starting from the top.
+
+Each section of a page was coded one part at a time starting from the top.
+
 Almost every section of the site has at least one image and one section of text.
+
 Each were styled using flexbox model sans Prepare/Aid pages which used grid display
