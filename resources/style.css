@@ -1,3 +1,5 @@
+/*color palette: dark blues, greys, whitesmoke. professional look that's softer on the eyes*/
+
 body {
     margin: 0;
     font-family: "Lato";
@@ -38,6 +40,7 @@ body {
     border-width: 1px;
     margin: 5em 10em 3em;
 }
+/*line breaks with different properties to utilize where needed with whatever spacing wanted */
 
 nav a{
     color: #233f52; 
@@ -78,6 +81,7 @@ h1, h2, h3 {
     width: 100%;
     border-left: solid thin;
     border-bottom: solid thin;
+    /*adds a slight pop to the image but not so much you notice it*/
     border-color: #233f522f;
 }
 
@@ -124,6 +128,7 @@ h1, h2, h3 {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/*parallax effect*/
 
 #pageCards {
     margin-top: 5%;
@@ -265,6 +270,7 @@ li p:first-of-type {
     justify-content: space-evenly;
     text-align: center;
 }
+playing around with both display types
 */
 .items {
     display: grid;
