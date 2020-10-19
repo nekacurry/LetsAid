@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+    background-color: whitesmoke;
+}
+
+#nav img {
+    height: 50px;
+}
+
+#nav {
+    margin-top: 1em;
+	padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linebreak {
+    border-bottom: solid;
+    border-color: #233f522f;
+    border-width: 1px;
+    margin: 1em 5em 0em;
+}
+
+nav a{
+    color: #233f52; 
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+    transition-duration: 0.4s;
+}
+nav a:hover{
+    background-color: #aacff1b7;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin-left: -3%;
+}
+nav ul a {
+    padding: 0.7em;
+}
+
+h1, h2, h3 {
+    font-family: "Raleway";
+}
+
+#banner {
+    display: flex;
+    margin: 10%;
+}
+
+#banner > div {
+    width: 100%;
+    margin: auto;
+}
+#banner > div img {
+    width: 100%;
+}
+
+#banner > #banner-text {
+    background-color: rgba(245, 245, 245, 0.459);
+    margin-left: -80px;
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #233f52;
+}
+
+/* #banner {
+    font-size: 4em;
+    color: whitesmoke;
+    padding: 18%;
+}
+
+#banner p {
+    text-align: center;
+    font-size: 0.5em;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
+}
+
+#banner img {
+    width: 50%;
+}
+.parallax {
+    background-image: url("assets/banner\ 2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

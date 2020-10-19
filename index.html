@@ -2,40 +2,64 @@
 <html lang="en">
 <head>
     <title>Protester's Bible</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Open+Sans:wght@300&family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-     <nav>
-        <ul>
-            <li><a href="/pages/prepare.html">Preparations</a></li>
-            <li><a href="/pages/aid.html">First Aid</a></li>
-            <li><a href="/pages/contact.html">Contact</a></li>
-        </ul>
+    <section id="nav">
+        <a href="#">
+            <img src="resources/assets/logo1.png">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/pages/prepare.html">Preparations</a></li>
+                <li><a href="/pages/aid.html">First Aid</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
         </nav>
-    <section>
-        <h1>The Protester's Bible</h1>
-        <p>Making a difference in how you make yours</p>
+    </section>
+    <div id="linebreak"></div>
+    <section id="banner">
+        <div>
+            <img src="resources/assets/banner3.jpeg" alt="">
+        </div>
+        <div id="banner-text">
+            <h1>The Protester's Bible</h1>
+            <p>Making a difference in how you make yours</p>
+        </div>
     </section>
     <section>
         <h2>What We Do</h2>
-        <p>.....</p>
+        <p>The Protester's Bible is the one stop shop for your preparedness needs. 
+            Curated by medical professionals and seasoned activists. 
+            We're here to make sure you stay safe while you utilize your right to protest. </p>
     </section>
     <section>
         <ul>
-            <li>
+            <li class="card">
                 <img>
                 <h3>What to Bring</h3>
-                <p></p>
+                <p>Come prepared.
+                    Tips and Guides on what to bring to a protest</p>
             </li>
-            <li>
+            <li class="card">
                 <img>
                 <h3>What to Do</h3>
-                <p></p>
+                <p>Make sure you and others stay safe. 
+                    Guides on what to do in the event of a minor injury or an emergency. </p>
             </li>
         </ul>
     </section>
     <footer>
     </footer>
+    <script 
+        src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>	
+    <script>
+    // Initialize Animate On Scroll
+        AOS.init();
+    </script>
     
 </body>
 </html>
