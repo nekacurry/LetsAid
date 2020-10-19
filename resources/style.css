@@ -251,6 +251,9 @@ form button {
 #preparePage h1{
     text-align: center;
 }
+li p:first-of-type {
+    font-size: 1.2em;
+}
 .items {
     display: flex;
     flex-direction: row;
@@ -267,7 +270,7 @@ form button {
 }
 */
 
-#doBring ul {
+#preparePage ul {
     list-style-type: none;
     list-style-position: inside;
 
@@ -279,6 +282,7 @@ form button {
     width: 200px;
     object-fit: cover;
     margin: 70px 70px 10px;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.185);
 }
 
 
