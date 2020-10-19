@@ -49,6 +49,7 @@ nav a{
 nav a:hover{
     background-color: #b6b6b6b7;
 }
+
 nav ul {
     display: flex;
     list-style: none;
@@ -189,10 +190,11 @@ h1, h2, h3 {
     background-color: white;
 }
 
-/*Contact Styles*/
+/*Contact Page Styles*/
 
 #conHead {
     text-align: center;
+    margin-bottom: 0;
 }
 
 #conHead p {
@@ -200,7 +202,7 @@ h1, h2, h3 {
 }
 
 #conForm {
-    margin: 10% 20%;
+    margin: 2% 20% 10%;
     padding: 2%;
     background-color: #b6b6b6b7;
     display: flex;
@@ -246,42 +248,46 @@ form button {
     padding: 0.5em 1em;
 }
 
-/*Prepare Page Styles*/
+/*Prepare and Aid Page Styles*/
 
-#preparePage h1{
+#preparePage h1, #aidPage h1{
     text-align: center;
 }
 li p:first-of-type {
     font-size: 1.2em;
+    font-weight: bold;
+
 }
-.items {
+/*.items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
 }
-/*.items {
+*/
+.items {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
+    grid-template-columns: repeat(2, 500px);
     grid-column-gap: 200px;
     margin-left: 100px;
     margin-top: 50px;
 }
-*/
 
-#preparePage ul {
+
+#preparePage ul, #aidPage ul {
     list-style-type: none;
     list-style-position: inside;
-
+    padding: 0;
 }
+
 
 .items img {
     float: left;
-    height: 300px;
+    height: 350px;
     width: 200px;
     object-fit: cover;
-    margin: 70px 70px 10px;
+    margin: 10px 70px 10px;
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.185);
 }
 
